@@ -1,0 +1,17 @@
+{
+    "baseUrl": "http://www.fleury.com.br",
+    "testFiles": "**/*.feature",
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "chromeWebSecurity": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportFilename": "ruslt_test",
+        "reportDir": "cypress/reports/relatorio/",
+        "quiet": true,
+        "overwrite": true,
+        "html": true,
+        "json": true
+    },
+    "videosFolder": "cypress/reports/video"
+}
